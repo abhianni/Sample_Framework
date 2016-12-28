@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite preserve-order="true" name="MainSuite" parallel="tests"
+	verbose="2" thread-count="2" >
+
+	<listeners>
+		<listener class-name="sample.helper.ExtentReporterNG">
+			
+		</listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="sample.helper.Screenshot" />		
+	</listeners>
+	<test name="Chrome Test">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="sample.test.LoginTest" />
+			<class name="sample.test.HotelBookingTest">
+			<methods>
+			<include name="checkHotelDetailsTest"></include>
+			<include name="bookHotelTest"></include>
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Firefox Test">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="sample.test.LoginTest" />
+			<class name="sample.test.HotelBookingTest">
+			<methods>
+			<include name="checkHotelDetailsTest"></include>
+			<include name="bookHotelTest"></include>
+			</methods>
+			</class>
+		</classes>
+	</test>
+	 <!-- Test -->
+</suite> <!-- Suite -->

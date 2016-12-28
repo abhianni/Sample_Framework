@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MainSuite" duration-ms="42585" started-at="2016-12-28T11:23:30Z" finished-at="2016-12-28T11:24:13Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="31174" started-at="2016-12-28T11:23:30Z" finished-at="2016-12-28T11:24:01Z">
+      <class name="sample.test.HotelBookingTest">
+        <test-method status="PASS" signature="checkHotelDetailsTest(java.lang.String)[pri:0, instance:sample.test.HotelBookingTest@5f5c46b5]" name="checkHotelDetailsTest" duration-ms="8488" started-at="2016-12-28T16:53:47Z" finished-at="2016-12-28T16:53:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHotelDetailsTest -->
+        <test-method status="PASS" signature="bookHotelTest(java.lang.String)[pri:0, instance:sample.test.HotelBookingTest@5f5c46b5]" name="bookHotelTest" duration-ms="5752" started-at="2016-12-28T16:53:56Z" finished-at="2016-12-28T16:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookHotelTest -->
+      </class> <!-- sample.test.HotelBookingTest -->
+      <class name="sample.test.LoginTest">
+        <test-method status="PASS" signature="browserSetup(java.lang.String)[pri:0, instance:sample.test.LoginTest@2445c06d]" name="browserSetup" is-config="true" duration-ms="2201" started-at="2016-12-28T16:53:30Z" finished-at="2016-12-28T16:53:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:sample.test.LoginTest@2445c06d]" name="loginTest" duration-ms="9134" started-at="2016-12-28T16:53:32Z" description="login Test" data-provider="login" finished-at="2016-12-28T16:53:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://phptravels.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:sample.test.LoginTest@2445c06d]" name="loginTest" duration-ms="5556" started-at="2016-12-28T16:53:42Z" description="login Test" data-provider="login" finished-at="2016-12-28T16:53:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://phptravels.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user@phptravels.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[demouser]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- sample.test.LoginTest -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="42578" started-at="2016-12-28T11:23:30Z" finished-at="2016-12-28T11:24:13Z">
+      <class name="sample.test.HotelBookingTest">
+        <test-method status="PASS" signature="checkHotelDetailsTest(java.lang.String)[pri:0, instance:sample.test.HotelBookingTest@3fd76922]" name="checkHotelDetailsTest" duration-ms="14039" started-at="2016-12-28T16:53:51Z" finished-at="2016-12-28T16:54:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHotelDetailsTest -->
+        <test-method status="PASS" signature="bookHotelTest(java.lang.String)[pri:0, instance:sample.test.HotelBookingTest@3fd76922]" name="bookHotelTest" duration-ms="8179" started-at="2016-12-28T16:54:05Z" finished-at="2016-12-28T16:54:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookHotelTest -->
+      </class> <!-- sample.test.HotelBookingTest -->
+      <class name="sample.test.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:sample.test.LoginTest@6eedd37b]" name="setup" is-config="true" duration-ms="12" started-at="2016-12-28T16:53:30Z" finished-at="2016-12-28T16:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="browserSetup(java.lang.String)[pri:0, instance:sample.test.LoginTest@6eedd37b]" name="browserSetup" is-config="true" duration-ms="7326" started-at="2016-12-28T16:53:30Z" finished-at="2016-12-28T16:53:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:sample.test.LoginTest@6eedd37b]" name="loginTest" duration-ms="7681" started-at="2016-12-28T16:53:38Z" description="login Test" data-provider="login" finished-at="2016-12-28T16:53:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://phptravels.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:sample.test.LoginTest@6eedd37b]" name="loginTest" duration-ms="5330" started-at="2016-12-28T16:53:45Z" description="login Test" data-provider="login" finished-at="2016-12-28T16:53:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://phptravels.net/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user@phptravels.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[demouser]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="driverClose()[pri:0, instance:sample.test.LoginTest@6eedd37b]" name="driverClose" is-config="true" duration-ms="2381" started-at="2016-12-28T16:54:13Z" finished-at="2016-12-28T16:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="sendMail()[pri:0, instance:sample.test.LoginTest@6eedd37b]" name="sendMail" is-config="true" duration-ms="6521" started-at="2016-12-28T16:54:15Z" finished-at="2016-12-28T16:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMail -->
+      </class> <!-- sample.test.LoginTest -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- MainSuite -->
+</testng-results>

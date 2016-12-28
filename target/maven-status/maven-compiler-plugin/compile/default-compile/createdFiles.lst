@@ -1,0 +1,10 @@
+sample\helper\Browser.class
+sample\helper\ExtentReporterNG.class
+sample\helper\Browser$1.class
+sample\test\HotelBookingTest.class
+sample\logic\PhpTravelsLogin.class
+sample\helper\Screenshot.class
+sample\test\LoginTest.class
+sample\helper\ExcelReader.class
+sample\logic\PhpTravelHotelBooking.class
+sample\helper\Base.class
