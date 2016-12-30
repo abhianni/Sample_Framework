@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Chrome Test"
+<testsuite name="Firefox Test"
            tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="14.240">
+           time="37.825">
   <properties />
   
   
-            <testcase name="checkHotelDetailsTest" time="8.488" classname="sample.test.HotelBookingTest" />
-                <testcase name="bookHotelTest" time="5.752" classname="sample.test.HotelBookingTest" />
+            <testcase name="checkHotelDetailsTest" time="31.872" classname="sample.test.HotelBookingTest" />
+                <testcase name="bookHotelTest" time="5.953" classname="sample.test.HotelBookingTest" />
       
 </testsuite>
